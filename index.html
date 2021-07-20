@@ -15,7 +15,7 @@
   <body>
     <header>
       <div class="intuitlogoholder">
-          <a class="intuitlogo" href="#"></a>
+          <a class="intuitlogo" id="intuitlogo1" href="#"></a>
       </div>
       <div class="intuitcompanylogos">
         <a class="mintlogo" href="#"></a>
@@ -24,30 +24,36 @@
       </div>
     </header>
     <section class="formcontainer">
-      <header>
+      <header class="formheadercontainer">
           <h3 class="formheader">Create an Intuit account</h3>
           <h5 class="formheaderinfo">One account for everything Intuit, including Mint. <a href="#">Learn more</a></h5>
           <h5 class="formheaderinfo">Already have an account? <a href="#">Sign In</a></h5>
       </header>
-      <form action="">
+      <form class="signupform"action="">
           <label for="email">Email address</label>
           <input type="email" placeholder="You'll verify this later" required>
           <label for="phone">Phone(recomended)</label>
-          <input type="phone" placeholder="Helps with lost passwords and security">
-          <span>Standard call, messaging or data rates may apply.</span>
+          <input id="phoneinput" type="phone" placeholder="Helps with lost passwords and security">
+          <span id="phonecomment">Standard call, messaging or data rates may apply.</span>
           <label for="password">Password</label>
           <input type="password" required placeholder="Don't reuse an old password">
+          <button class="subbutton">Creat and Account</button>
       </form>
-      <div></div>
-      <div></div>
+      <div >
+        <h5 class="formfooter">By selecting Create Account, you agree to our Terms and have read and acknowledge our Global Privacy Statement.</h5>
+      </div>
+      <div class="subformfootercontainer">
+        <h5 class="formsubfooter">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</h5>
+      </div>
     </section>
     <footer>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Legal</li>
+        <li>Privacy</li>
+        <li>Security</li>
       </ul>
-      <p></p>
+      <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
     <!--[if lt IE 7]>
       <p class="browsehappy">
