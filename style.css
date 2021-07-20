@@ -1,0 +1,32 @@
+body {
+    background-color: #ECEEF1;
+    opacity: 50;
+}
+
+.formcontainer {
+    background-color: #fbfbfb;
+}
+.intuitlogoholder {
+    background-image: url(/assets/Intuit-Logo-Greyscale-Web-011-300x140.png);
+    width: 118px;
+    height: 35px;
+    display: block;
+}
+.intuitlogo {
+    background-image: url(/assets/Intuit-Logo-Greyscale-Web-011-300x140.png);
+    width: 118px;
+    height: 35px;
+    display: block;
+}
+.mintlogo { 
+    background-image: url(/assets/intuitmintlogo.png);
+    width: 35px;
+    height: 75px;
+    display: block;
+}
+.quickbookslogo {
+    background-image: url(/assets/logo-intuit-quickbooks-preferred.jpg);
+    width: 35px;
+    height: 75px;
+    display: block;
+}
