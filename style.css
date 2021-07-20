@@ -1,3 +1,6 @@
+/* 
+Need to add a wrapping container to all of it so won't get weird scaling issues. 
+*/
 body {
     background-color: #ECEEF1;
     opacity: 50;
