@@ -3,10 +3,69 @@ body {
     opacity: 50;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.logoheader {
+    display: block;
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+    align-items: center;
+
+}
+.intuitlogo {
+    background-image: url("assets/Intuit-Logo-Greyscale-Web-011-300x140.png");
+    display: block;
+    align-items: center;
+    background-size: 118px 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 118px;
+    margin-left: 40%;
+    margin-top: 0;
+}
+.otherlogos {
+    display: flex;
+    padding-top: 2%;
+    margin-left: 25%;
+}
+.mint {
+    background-image: url("assets/intuitmintlogo.png");
+    display: block;
+    align-items: center;
+    background-size: 118px 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 118px;
+
+
+}
+.quickbooks {
+    background-image: url("assets/logo-intuit-quickbooks-preferred.jpg");
+    display: block;
+    align-items: center;
+    background-size: 118px 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 118px;
+
+
+}
+.turbotax {
+     background-image: url("assets/intuitturbotax.png");
+    display: block;
+    align-items: center;
+    background-size: 118px 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 118px;
+
+
+}
 
 .formcontainer {
     background-color: #fbfbfb;
     margin: 5% auto;
+    margin-top: 2%;
     max-width: 60%;
     align-items: center;
     border: 1px solid #c7c7c7;
@@ -32,36 +91,6 @@ body {
    
 }
 
-.intuitlogo {
-    background: url("assets/Intuit-Logo-Greyscale-Web-011-300x140.png");
-    background-repeat: no-repeat;
-   
-    width: 118px;
-    height: 35px;
-   display: block;
-    
-}
-.mintlogo { 
-    background-image: url("assets/intuitmintlogo.png");
-    width: 35px;
-    height: 75px;
-    display: block;
-}
-.quickbookslogo {
-    background-image: url("assets/logo-intuit-quickbooks-preferred.jpg");
-    width: 35px;
-    height: 75px;
-    display: block;
-}
-#intuitlogo1 {
-    
-    width: 118px;
-    height: 35px;
-    display: block;
-    background-image: url("assets/Intuit-Logo-Greyscale-Web-011-300x140.png");
-    background-repeat: no-repeat;
-   
-}
 .signupform{ 
     align-items: center;
     display: flex;
@@ -178,5 +207,52 @@ background-image: url(/assets/Intuit-Logo-Greyscale-Web-011-300x140.png);
     width: 118px;
     height: 35px;
     display: block;
+}
+
+.logoheader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 118px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    background: url("assets/Intuit-Logo-Greyscale-Web-011-300x140.png");
+}
+.intuitlogoholder {
+    
+    width: 118px;
+    height: 35px;
+    display: block;
+}
+
+.intuitlogo {
+    background: url("assets/Intuit-Logo-Greyscale-Web-011-300x140.png");
+    background-repeat: no-repeat;
+   
+    width: 118px;
+    height: 35px;
+   display: block;
+    
+}
+.mintlogo { 
+    background-image: url("assets/intuitmintlogo.png");
+    width: 75px;
+    height: 35px;
+    display: block;
+}
+.quickbookslogo {
+    background-image: url("assets/logo-intuit-quickbooks-preferred.jpg");
+    width: 75px;
+    height: 35px;
+    display: block;
+}
+#intuitlogo1 {
+    
+    width: 118px;
+    height: 35px;
+    display: block;
+    background-image: url("assets/Intuit-Logo-Greyscale-Web-011-300x140.png");
+    background-repeat: no-repeat;
+   
 }
 */
